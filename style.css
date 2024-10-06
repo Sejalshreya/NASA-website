@@ -2,29 +2,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #001f3f;
+    background: #0077cc;
     color: white;
     padding: 20px 0;
     text-align: center;
 }
 
-header h1 span {
-    color: #f39c12;
-}
-
 nav {
-    background-color: #0074D9;
-    text-align: center;
-    padding: 10px;
+    background: #005fa3;
+    color: white;
+    padding: 10px 0;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
     padding: 0;
 }
 
@@ -36,29 +31,36 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
+}
+
+main {
+    padding: 20px;
 }
 
 section {
-    padding: 20px;
-    margin: 20px auto;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
 }
 
-section h2 {
-    color: #001f3f;
+h2 {
+    color: #0077cc;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
+.cta-button {
+    background: #0077cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #005fa3;
 }
 
 footer {
-    background-color: #001f3f;
-    color: white;
-    padding: 10px 0;
     text-align: center;
+    padding: 10px 0;
+    background: #f4f4f4;
 }
 
